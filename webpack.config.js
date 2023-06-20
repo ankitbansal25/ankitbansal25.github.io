@@ -40,7 +40,8 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: 'CNAME' }
+        { from: 'CNAME' },
+        { from: '.github', to: '.github' }
       ]
     }),
   ],
